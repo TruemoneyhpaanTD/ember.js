@@ -2,7 +2,7 @@ import { ROUTER_ROUTER } from '@ember/deprecated-features';
 import { getOwner } from '@ember/-internals/owner';
 import { assign } from '@ember/polyfills';
 import { once } from '@ember/runloop';
-import { get, set, getProperties, setProperties, computed, isEmpty } from 'ember-metal';
+import { get, set, getProperties, setProperties, computed, isEmpty } from '@ember/-internals/metal';
 import { assert, deprecate, info, isTesting } from '@ember/debug';
 import { DEBUG } from '@glimmer/env';
 import { classify } from '@ember/string';
